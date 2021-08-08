@@ -1,0 +1,131 @@
+name: flutter_car
+description: A new Flutter car tracking UI project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  flutter_svg: ^0.19.0
+  flutter_switch: ^0.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/car.png
+    - assets/images/car2.png
+    - assets/images/car3.png
+    - assets/images/car_top.png
+    - assets/images/map.jpg
+    - assets/images/man.jpg
+    - assets/images/trip.png
+    - assets/images/map.png
+    - assets/images/brakepad.png
+    - assets/images/antifreeze.png
+    - assets/images/brakeoil.png
+    - assets/images/gasfilter.png
+    - assets/images/gearoil.png
+    - assets/images/guarantee.png
+    - assets/images/hull.png
+    - assets/images/oil.png
+    - assets/images/oilfilter.png
+    - assets/images/thirdparty.png
+    - assets/images/timingbelt.png
+    - assets/images/tirechange.png
+    - assets/images/tireswap.png
+    - assets/images/menu.svg
+    - assets/images/notification.svg
+    - assets/images/power.svg
+    - assets/images/service.svg
+    - assets/images/speed.svg
+    - assets/images/speed2.svg
+    - assets/images/dish.svg
+    - assets/images/dish2.svg
+    - assets/images/battery.svg
+    - assets/images/battery2.svg
+    - assets/images/radio.svg
+    - assets/images/radio2.svg
+    - assets/images/destination.svg
+    - assets/images/map.svg
+    - assets/images/radar.svg
+    - assets/images/vehicle.svg
+    - assets/images/manage.svg
+    - assets/images/presentation.svg
+    - assets/images/help.svg
+    - assets/images/help_black.svg
+    - assets/images/fre_question.svg
+    - assets/images/contact_us.svg
+    - assets/images/contact_us_black.svg
+    - assets/images/commants.svg
+    - assets/images/events.svg
+    - assets/images/language.svg
+    - assets/images/logout.svg
+    - assets/images/logout_black.svg
+    - assets/images/change_car.svg
+    - assets/images/account.svg
+    - assets/images/add.svg
+    - assets/images/oil.svg
+    - assets/images/gift.svg
+    - assets/images/air_filter.svg
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
